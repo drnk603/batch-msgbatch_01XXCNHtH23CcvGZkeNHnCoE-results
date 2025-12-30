@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="de">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entdecke Deutschland - Ihre Premium Reiseagentur für unvergessliche Reiseerlebnisse</title>
+  <meta name="description" content="Entdecke Deutschland bietet exklusive Reisepakete, persönliche Beratung und unvergessliche Erlebnisse in Deutschland. Von Städtereisen bis zu Naturabenteuern - wir planen Ihre Traumreise.">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Entdecke Deutschland - Premium Reiseagentur">
+  <meta property="og:description" content="Unvergessliche Reiseerlebnisse in Deutschland mit persönlicher Beratung und exklusiven Paketen">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://domain.com">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=1200&amp;h=630&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb">
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://domain.com">
+  <!-- Bootstrap CSS -->
+  <!-- Custom CSS -->
+  <!-- AOS Animation Library -->
+  <!-- JSON-LD Structured Data -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ </head>
+ <body>
+  <header class="l-header sticky-top bg-white border-bottom">
+   <div class="l-container">
+    <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Hauptnavigation">
+     <a class="navbar-brand" href="/" aria-label="Entdecke Deutschland Startseite"> <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=150&amp;h=40&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb" alt="Entdecke Deutschland Logo" width="150" height="40" class="logo-img"> </a>
+     <button class="c-nav__toggle navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"><span class="hamburger-line"></span> <span class="hamburger-line"></span> <span class="hamburger-line"></span></button>
+     <div class="c-nav collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+       <li class="nav-item"><a class="c-nav__item nav-link" href="/" aria-current="page">Startseite</a></li>
+       <li class="nav-item"><a class="c-nav__item nav-link" href="about.html">Über uns</a></li>
+       <li class="nav-item"><a class="c-nav__item nav-link" href="services.html">Leistungen</a></li>
+       <li class="nav-item"><a class="c-nav__item nav-link" href="faq.html">FAQ</a></li>
+       <li class="nav-item"><a class="c-nav__item nav-link c-button c-button--primary" href="#contact-form">Anfrage senden</a></li>
+      </ul>
+     </div>
+    </nav>
+   </div>
+  </header>
+  <!-- Header -->
+  <!-- Hero Section -->
+  <section class="l-hero py-5" style="scroll-margin-top: var(--header-h);">
+   <div class="hero-background" style="background-image: url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1920&amp;h=1080&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;"></div>
+   <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(102,51,153,0.4)); position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;"></div>
+   <div class="l-container position-relative">
+    <div class="row align-items-center min-vh-100">
+     <div class="col-lg-6" data-aos="fade-up" data-aos-duration="800">
+      <h1 class="display-4 fw-bold text-white mb-4">Entdecken Sie Deutschland wie nie zuvor</h1>
+      <p class="lead text-white-50 mb-4">Von den Alpen bis zur Nordsee - wir kreieren unvergessliche Reiseerlebnisse, die perfekt auf Ihre Wünsche zugeschnitten sind. Lassen Sie sich von der Vielfalt Deutschlands verzaubern.</p>
+      <div class="d-flex flex-column flex-sm-row gap-3">
+       <a href="#contact-form" class="c-button c-button--primary btn-lg"> Kostenlose Beratung </a> <a href="services.html" class="c-button c-button--secondary btn-lg"> Unsere Reisen entdecken </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Trust Badges Section -->
+  <section class="py-4 bg-light">
+   <div class="l-container">
+    <div class="row text-center">
+     <div class="col-6 col-md-3 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+      <div class="trust-badge">
+       <div class="ratio ratio-1x1 mb-2" style="width: 60px; margin: 0 auto;">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+         <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" />
+        </svg>
+       </div>
+       <p class="small mb-0 fw-semibold">15+ Jahre Erfahrung</p>
+      </div>
+     </div>
+     <div class="col-6 col-md-3 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+      <div class="trust-badge">
+       <div class="ratio ratio-1x1 mb-2" style="width: 60px; margin: 0 auto;">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+         <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1L9 7V9C9 10.1 9.9 11 11 11V16L7.5 21L9 22.5L12 18.5L15 22.5L16.5 21L13 16V11C14.1 11 15 10.1 15 9H21Z" />
+        </svg>
+       </div>
+       <p class="small mb-0 fw-semibold">2500+ zufriedene Kunden</p>
+      </div>
+     </div>
+     <div class="col-6 col-md-3 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="300">
+      <div class="trust-badge">
+       <div class="ratio ratio-1x1 mb-2" style="width: 60px; margin: 0 auto;">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+         <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11.5C15.4,11.5 16,12.1 16,12.7V16.2C16,16.8 15.4,17.3 14.8,17.3H9.2C8.6,17.3 8,16.8 8,16.2V12.8C8,12.2 8.6,11.7 9.2,11.7V10.1C9.2,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.5,8.7 10.5,9.5V11.7H13.5V9.5C13.5,8.7 12.8,8.2 12,8.2Z" />
+        </svg>
+       </div>
+       <p class="small mb-0 fw-semibold">100% Sicher &amp; Versichert</p>
+      </div>
+     </div>
+     <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+      <div class="trust-badge">
+       <div class="ratio ratio-1x1 mb-2" style="width: 60px; margin: 0 auto;">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+         <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8Z" />
+        </svg>
+       </div>
+       <p class="small mb-0 fw-semibold">24/7 Support</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Interactive Poll Section -->
+  <section class="py-5" id="poll-section" style="scroll-margin-top: var(--header-h);">
+   <div class="l-container">
+    <div class="row justify-content-center">
+     <div class="col-lg-8">
+      <div class="text-center mb-5" data-aos="fade-up">
+       <h2 class="h1 fw-bold mb-3">Was ist Ihr Traumreiseziel in Deutschland?</h2>
+       <p class="lead text-muted">Helfen Sie uns, Ihnen das perfekte Reiseerlebnis zu bieten</p>
+      </div>
+      <div class="c-card text-center" data-aos="fade-up" data-aos-delay="200">
+       <div id="poll-container">
+        <div class="poll-options mb-4">
+         <div class="poll-option mb-3" data-option="bavaria">
+          <input type="radio" class="c-checkbox" id="option-bavaria" name="poll" value="bavaria"> <label class="c-label poll-label" for="option-bavaria"> 
+           <div class="d-flex align-items-center justify-content-between w-100">
+            <span class="fw-semibold">Bayern - Alpen &amp; Oktoberfest</span> <span class="poll-percentage" id="percentage-bavaria">0%</span>
+           </div> 
+           <div class="poll-bar">
+            <div class="poll-fill" id="fill-bavaria" style="width: 0%;"></div>
+           </div> 
+          </label>
+         </div>
+         <div class="poll-option mb-3" data-option="berlin">
+          <input type="radio" class="c-checkbox" id="option-berlin" name="poll" value="berlin"> <label class="c-label poll-label" for="option-berlin"> 
+           <div class="d-flex align-items-center justify-content-between w-100">
+            <span class="fw-semibold">Berlin - Kultur &amp; Geschichte</span> <span class="poll-percentage" id="percentage-berlin">0%</span>
+           </div> 
+           <div class="poll-bar">
+            <div class="poll-fill" id="fill-berlin" style="width: 0%;"></div>
+           </div> 
+          </label>
+         </div>
+         <div class="poll-option mb-3" data-option="coast">
+          <input type="radio" class="c-checkbox" id="option-coast" name="poll" value="coast"> <label class="c-label poll-label" for="option-coast"> 
+           <div class="d-flex align-items-center justify-content-between w-100">
+            <span class="fw-semibold">Nord-/Ostseeküste - Strand &amp; Meer</span> <span class="poll-percentage" id="percentage-coast">0%</span>
+           </div> 
+           <div class="poll-bar">
+            <div class="poll-fill" id="fill-coast" style="width: 0%;"></div>
+           </div> 
+          </label>
+         </div>
+         <div class="poll-option mb-4" data-option="rhine">
+          <input type="radio" class="c-checkbox" id="option-rhine" name="poll" value="rhine"> <label class="c-label poll-label" for="option-rhine"> 
+           <div class="d-flex align-items-center justify-content-between w-100">
+            <span class="fw-semibold">Rheinland - Burgen &amp; Weinberge</span> <span class="poll-percentage" id="percentage-rhine">0%</span>
+           </div> 
+           <div class="poll-bar">
+            <div class="poll-fill" id="fill-rhine" style="width: 0%;"></div>
+           </div> 
+          </label>
+         </div>
+        </div>
+        <button type="button" class="c-button c-button--primary" id="vote-button">Abstimmen</button>
+        <div class="mt-3">
+         <small class="text-muted">Gesamtstimmen: <span id="total-votes">1247</span></small>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Location Map Section -->
+  <section class="py-5 bg-light" id="location-section" style="scroll-margin-top: var(--header-h);">
+   <div class="l-container">
+    <div class="row align-items-center">
+     <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+      <h2 class="h1 fw-bold mb-4">Besuchen Sie uns in München</h2>
+      <p class="lead mb-4">Unser erfahrenes Team steht Ihnen in unserem modernen Büro in der Münchener Innenstadt zur Verfügung. Vereinbaren Sie einen persönlichen Termin für eine individuelle Reiseberatung.</p>
+      <div class="contact-info">
+       <div class="d-flex align-items-center mb-3">
+        <div class="ratio ratio-1x1 me-3" style="width: 24px;">
+         <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+          <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+         </svg>
+        </div>
+        <div>
+         <strong>Königsallee 45</strong>
+         <br>
+         <span class="text-muted">80539 München, Deutschland</span>
+        </div>
+       </div>
+       <div class="d-flex align-items-center mb-3">
+        <div class="ratio ratio-1x1 me-3" style="width: 24px;">
+         <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+          <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+         </svg>
+        </div>
+        <div>
+         <strong>+49-89-123-45678</strong>
+         <br>
+         <span class="text-muted">Mo-Fr: 9:00-18:00 Uhr</span>
+        </div>
+       </div>
+       <div class="d-flex align-items-center mb-4">
+        <div class="ratio ratio-1x1 me-3" style="width: 24px;">
+         <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+          <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+         </svg>
+        </div>
+        <div>
+         <strong>info@domain.com</strong>
+         <br>
+         <span class="text-muted">Antwort innerhalb 24h</span>
+        </div>
+       </div>
+      </div>
+      <a href="#contact-form" class="c-button c-button--primary"> Termin vereinbaren </a>
+     </div>
+     <div class="col-lg-6" data-aos="fade-left">
+      <div class="map-container position-relative">
+       <div class="ratio ratio-16x9">
+        <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=600&amp;h=400&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb" alt="Modernes Bürogebäude in München, Königsallee, Stadtansicht mit Geschäftsviertel" class="img-fluid rounded shadow" style="object-fit: cover;" loading="lazy">
+       </div>
+       <div class="map-overlay position-absolute top-50 start-50 translate-middle">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+         <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px;">
+          <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+         </svg>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Media Mentions Section -->
+  <section class="py-5" id="media-section" style="scroll-margin-top: var(--header-h);">
+   <div class="l-container">
+    <div class="text-center mb-5" data-aos="fade-up">
+     <h2 class="h1 fw-bold mb-3">In den Medien</h2>
+     <p class="lead text-muted">Vertrauen Sie dem Experten - unsere Auszeichnungen sprechen für sich</p>
+    </div>
+    <div class="row">
+     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="c-card h-100 text-center">
+       <div class="ratio ratio-16x9 mb-3">
+        <img src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=300&amp;h=200&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb" alt="Reise Magazin Auszeichnung, Beste Reiseagentur Deutschland, Zeitschrift Cover" class="img-fluid rounded" style="object-fit: cover;" loading="lazy">
+       </div>
+       <h5 class="fw-bold mb-2">Reise Magazin</h5>
+       <p class="text-muted small mb-3">"Beste Reiseagentur 2024"</p>
+       <p class="small">Ausgezeichnet für exzellenten Service und innovative Reisekonzepte in Deutschland.</p>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="c-card h-100 text-center">
+       <div class="ratio ratio-16x9 mb-3">
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=300&amp;h=200&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb" alt="Touristik Zeitung Feature, Nachhaltiger Tourismus, Presseartikel Layout" class="img-fluid rounded" style="object-fit: cover;" loading="lazy">
+       </div>
+       <h5 class="fw-bold mb-2">Touristik Zeitung</h5>
+       <p class="text-muted small mb-3">"Pionier im nachhaltigen Tourismus"</p>
+       <p class="small">Unser Engagement für umweltfreundliche Reisekonzepte wurde besonders gewürdigt.</p>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="c-card h-100 text-center">
+       <div class="ratio ratio-16x9 mb-3">
+        <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=300&amp;h=200&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb" alt="Business Travel Magazin Interview, Geschäftsreisen Experte, Fachpresse" class="img-fluid rounded" style="object-fit: cover;" loading="lazy">
+       </div>
+       <h5 class="fw-bold mb-2">Business Travel</h5>
+       <p class="text-muted small mb-3">"Top Experte für Incentive-Reisen"</p>
+       <p class="small">Spezialisierung auf maßgeschneiderte Firmenevents und Teambuilding-Reisen.</p>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+      <div class="c-card h-100 text-center">
+       <div class="ratio ratio-16x9 mb-3">
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=300&amp;h=200&amp;fit=crop&amp;crop=entropy&amp;cs=tinysrgb" alt="Deutsche Presse Award, Kundenzufriedenheit Auszeichnung, Zertifikat" class="img-fluid rounded" style="object-fit: cover;" loading="lazy">
+       </div>
+       <h5 class="fw-bold mb-2">Deutsche Presse</h5>
+       <p class="text-muted small mb-3">"98% Kundenzufriedenheit"</p>
+       <p class="small">Höchste Bewertungen für persönlichen Service und Reisequalität deutschlandweit.</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Newsletter Signup Section -->
+  <section class="py-5 bg-primary text-white" id="newsletter-section" style="scroll-margin-top: var(--header-h);">
+   <div class="l-container">
+    <div class="row justify-content-center">
+     <div class="col-lg-8 text-center" data-aos="fade-up">
+      <h2 class="h1 fw-bold mb-3">Bleiben Sie auf dem Laufenden</h2>
+      <p class="lead mb-4">Erhalten Sie exklusive Reiseangebote, Insider-Tipps und die neuesten Trends direkt in Ihr Postfach. Keine Spam-Mails - versprochen!</p>
+      <form class="newsletter-form row g-3 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+       <div class="col-md-6">
+        <label for="newsletter-email" class="visually-hidden">E-Mail-Adresse</label> <input type="email" class="c-input form-control form-control-lg" id="newsletter-email" placeholder="Ihre E-Mail-Adresse" required>
+       </div>
+       <div class="col-md-4">
+        <button type="submit" class="c-button c-button--secondary btn-lg w-100">Jetzt anmelden</button>
+       </div>
+      </form>
+      <p class="small mt-3 opacity-75">Mit der Anmeldung akzeptieren Sie unsere <a href="privacy.html" class="text-white text-decoration-underline">Datenschutzbestimmungen</a>. Abmeldung jederzeit möglich.</p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Form Section -->
+  <section class="py-5" id="contact-form" style="scroll-margin-top: var(--header-h);">
+   <div class="l-container">
+    <div class="row justify-content-center">
+     <div class="col-lg-8">
+      <div class="text-center mb-5" data-aos="fade-up">
+       <h2 class="h1 fw-bold mb-3">Starten Sie Ihr Abenteuer</h2>
+       <p class="lead text-muted">Teilen Sie uns Ihre Reisewünsche mit und erhalten Sie ein personalisiertes Angebot von unseren Experten.</p>
+      </div>
+      <div class="c-card" data-aos="fade-up" data-aos-delay="200">
+       <form class="c-form" method="post" action="thank_you.html" novalidate>
+        <div class="row">
+         <div class="col-md-6 mb-3">
+          <label for="firstname" class="c-label form-label fw-semibold">Vorname *</label> <input type="text" class="c-input form-control" id="firstname" name="firstname" required>
+          <div class="c-form__error" role="alert"></div>
+         </div>
+         <div class="col-md-6 mb-3">
+          <label for="lastname" class="c-label form-label fw-semibold">Nachname *</label> <input type="text" class="c-input form-control" id="lastname" name="lastname" required>
+          <div class="c-form__error" role="alert"></div>
+         </div>
+        </div>
+        <div class="row">
+         <div class="col-md-6 mb-3">
+          <label for="email" class="c-label form-label fw-semibold">E-Mail-Adresse *</label> <input type="email" class="c-input form-control" id="email" name="email" required>
+          <div class="c-form__error" role="alert"></div>
+         </div>
+         <div class="col-md-6 mb-3">
+          <label for="phone" class="c-label form-label fw-semibold">Telefonnummer</label> <input type="tel" class="c-input form-control" id="phone" name="phone" placeholder="+49 xxx xxx xxxx">
+          <div class="c-form__error" role="alert"></div>
+         </div>
+        </div>
+        <div class="mb-3">
+         <label for="destination" class="c-label form-label fw-semibold">Gewünschtes Reiseziel</label> <select class="c-input form-select" id="destination" name="destination"> <option value="">Bitte wählen Sie...</option> <option value="bayern">Bayern - Alpen &amp; Oktoberfest</option> <option value="berlin">Berlin - Kultur &amp; Geschichte</option> <option value="nordsee">Nordseeküste - Strand &amp; Wellness</option> <option value="ostsee">Ostseeküste - Inseln &amp; Natur</option> <option value="rhein">Rheinland - Burgen &amp; Wein</option> <option value="schwarzwald">Schwarzwald - Wandern &amp; Erholung</option> <option value="dresden">Dresden &amp; Sächsische Schweiz</option> <option value="hamburg">Hamburg - Maritime Atmosphäre</option> <option value="other">Andere Destination</option> </select>
+         <div class="c-form__error" role="alert"></div>
+        </div>
+        <div class="row">
+         <div class="col-md-6 mb-3">
+          <label for="travel-date" class="c-label form-label fw-semibold">Gewünschter Reisezeitraum</label> <input type="date" class="c-input form-control" id="travel-date" name="travel-date">
+          <div class="c-form__error" role="alert"></div>
+         </div>
+         <div class="col-md-6 mb-3">
+          <label for="budget" class="c-label form-label fw-semibold">Budget pro Person</label> <select class="c-input form-select" id="budget" name="budget"> <option value="">Bitte wählen Sie...</option> <option value="500-1000">500€ - 1.000€</option> <option value="1000-2000">1.000€ - 2.000€</option> <option value="2000-3000">2.000€ - 3.000€</option> <option value="3000+">Über 3.000€</option> </select>
+          <div class="c-form__error" role="alert"></div>
+         </div>
+        </div>
+        <div class="mb-4">
+         <label for="message" class="c-label form-label fw-semibold">Ihre Nachricht oder spezielle Wünsche</label> <textarea class="c-input form-control" id="message" name="message" rows="5" placeholder="Erzählen Sie uns von Ihren Reiseträumen, besonderen Interessen oder speziellen Anforderungen..."></textarea>
+         <div class="c-form__error" role="alert"></div>
+        </div>
+        <div class="form-check mb-4">
+         <input type="checkbox" class="c-checkbox form-check-input" id="privacy-consent" name="privacy-consent" required> <label class="c-label form-check-label" for="privacy-consent"> Ich stimme der Verarbeitung meiner Daten gemäß der <a href="privacy.html" class="text-primary text-decoration-underline" target="_blank">Datenschutzerklärung</a> zu und bin damit einverstanden, kontaktiert zu werden. * </label>
+         <div class="c-form__error" role="alert"></div>
+        </div>
+        <div class="text-center">
+         <button type="submit" class="c-button c-button--primary btn-lg px-5">Kostenlose Beratung anfordern</button>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <!-- Bootstrap JS -->
+  <!-- AOS Animation Library -->
+  <!-- Custom JavaScript -->
+  <footer class="bg-dark text-white py-5">
+   <div class="l-container">
+    <div class="row">
+     <div class="col-lg-4 mb-4">
+      <h5 class="fw-bold mb-3">Entdecke Deutschland</h5>
+      <p class="text-white-50">Ihre Premium Reiseagentur für unvergessliche Erlebnisse in Deutschland. Seit über 15 Jahren kreieren wir maßgeschneiderte Reisen für anspruchsvolle Kunden.</p>
+      <div class="social-links">
+       <a href="#" class="text-white me-3" aria-label="Facebook"> 
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+         <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+        </svg> 
+       </a> <a href="#" class="text-white" aria-label="Instagram"> 
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+         <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-2.458 0-4.467-2.01-4.467-4.468s2.009-4.468 4.467-4.468c2.458 0 4.468 2.01 4.468 4.468s-2.01 4.468-4.468 4.468zm7.519 0c-2.458 0-4.467-2.01-4.467-4.468s2.009-4.468 4.467-4.468c2.458 0 4.468 2.01 4.468 4.468s-2.01 4.468-4.468 4.468z" />
+        </svg> 
+       </a>
+      </div>
+     </div>
+     <div class="col-lg-2 col-md-3 col-6 mb-4">
+      <h6 class="fw-bold mb-3">Navigation</h6>
+      <ul class="list-unstyled">
+       <li><a href="/" class="text-white-50 text-decoration-none">Startseite</a></li>
+       <li><a href="about.html" class="text-white-50 text-decoration-none">Über uns</a></li>
+       <li><a href="services.html" class="text-white-50 text-decoration-none">Leistungen</a></li>
+       <li><a href="faq.html" class="text-white-50 text-decoration-none">FAQ</a></li>
+      </ul>
+     </div>
+     <div class="col-lg-3 col-md-4 col-6 mb-4">
+      <h6 class="fw-bold mb-3">Kontakt</h6>
+      <p class="text-white-50 mb-2"><strong>Königsallee 45</strong>
+       <br>
+       80539 München, Deutschland</p>
+      <p class="text-white-50 mb-2"><strong>Tel:</strong> +49-89-123-45678</p>
+      <p class="text-white-50"><strong>E-Mail:</strong> info@domain.com</p>
+     </div>
+     <div class="col-lg-3 col-md-5 mb-4">
+      <h6 class="fw-bold mb-3">Rechtliches</h6>
+      <ul class="list-unstyled">
+       <li><a href="privacy.html" class="text-white-50 text-decoration-none">Datenschutz</a></li>
+       <li><a href="privacy.html" class="text-white-50 text-decoration-none">Impressum</a></li>
+       <li><a href="privacy.html" class="text-white-50 text-decoration-none">AGB</a></li>
+      </ul>
+     </div>
+    </div>
+    <hr class="my-4 border-secondary">
+    <div class="row align-items-center">
+     <div class="col-md-6">
+      <p class="mb-0 text-white-50">© 2025 Entdecke Deutschland. Alle Rechte vorbehalten.</p>
+     </div>
+     <div class="col-md-6 text-md-end mt-2 mt-md-0">
+      <small class="text-white-50"> Reisebüro-Lizenz: Nr. 12345 | Versichert durch ERGO Reiseversicherung </small>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="script.js" defer></script>
+ </body>
+</html>
